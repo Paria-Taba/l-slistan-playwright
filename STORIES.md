@@ -1,7 +1,7 @@
-Navigering :
+Navigate :
 Som användare vill jag kunna navigera mellan katalog, lägga till bok och mina böcker, så att jag enkelt kan använda alla funktioner i appen.
 
-Katalog :
+Katalog-vy :
 Som användare vill jag se en lista med böcker i katalogen för att kunna välja böcker att läsa.
 
 Lägga till bok:
