@@ -42,3 +42,38 @@ Navigera till "mina böcker"-vyn.
 
 Kontrollera att alla favoritmarkerade böcker visas.
 
+
+
+
+
+
+VG:
+Navigering (VG-nivå)
+User Story 1A – Navigering till katalog fungerar från alla vyer
+Som användare vill jag kunna klicka på "Katalog" från varje annan vy och alltid komma till katalogen.
+
+User Story 1B – Navigering till fel vy visas inte
+Som användare vill jag att om jag klickar på en ogiltig länk eller ruta (t.ex. ett trasigt element), ska ingen vy laddas felaktigt.
+
+Lägg till bok (VG-nivå)
+User Story 2A – Felhantering: tomt formulär
+Som användare vill jag få ett felmeddelande om jag försöker lägga till en bok utan att fylla i titeln.
+
+User Story 2B – Felhantering: extremt lång titel
+Som användare vill jag få ett felmeddelande om jag fyller i en extremt lång boktitel (t.ex. 300 tecken) för att förhindra problem i gränssnittet.
+
+User Story 2C – Lägg till flera böcker i följd
+Som användare vill jag kunna lägga till flera böcker utan att behöva ladda om sidan.
+
+User Story 2D – Rensa formuläret efter inmatning
+Som användare vill jag att formuläret nollställs efter att jag lagt till en bok så att jag inte råkar lägga till samma igen.
+
+Mina böcker (VG-nivå)
+User Story 3A – Visa tom lista om inga böcker valts
+Som användare vill jag att det visas ett tydligt meddelande om jag ännu inte har favoritmarkerat någon bok.
+
+User Story 3B – Visa korrekt lista efter flera val
+Som användare vill jag se alla mina favoritböcker, även om jag lagt till flera i rad.
+
+User Story 3C – Undvik dubbletter
+Som användare vill jag inte kunna lägga till samma bok flera gånger som favorit.
