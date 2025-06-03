@@ -6,6 +6,8 @@ Navigera till 'Lägg till bok' och kontrollera att 'Författare'-fältet visas.
 
 Navigera till 'Mina böcker' och kontrollera att texten visas.
 
+navigera mellan “Katalog”, “Lägg till bok” och “Mina böcker” från vilken vy som helst
+
 
 Katalog-vy:
 
@@ -14,7 +16,6 @@ Varje bok visar både titel och författare
 Klicka på hjärtat för att favoritmarkera en bok och Kontrollera att den visas i "Mina böcker"
 
 Klicka på hjärtat igen för att ta bort favoritmarkering → Kontrollera att den inte längre visas
-
 
 
 Lägga till bok:
