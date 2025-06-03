@@ -45,7 +45,7 @@ test.describe("katalog-vy", () => {
     }
   });
  
-  test("Klicka på hjärtat för att favoritmarkera en bok", async({page})=>{
+  test("Klicka på hjärtat för att favoritmarkera en bok  Kontrollera att den visas i 'Mina böcker'", async({page})=>{
 
 	await page.locator('[data-testid="star-Hur man tappar bort sin TV-fjärr 10 gånger om dagen"]').click();
 	await page.getByRole("button", {name:"mina böcker"}).click()

@@ -2,16 +2,16 @@ Navigering:
 
 Klicka på "Katalog"-knappen och kontrollera att katalogvyn visas.
 
-Klicka på "Lägg till bok"-knappen och kontrollera att formuläret för att lägga till bok visas.
+Navigera till 'Lägg till bok' och kontrollera att 'Författare'-fältet visas.
 
-Klicka på "Mina böcker"-knappen och kontrollera att listan med favoritböcker visas.
+Navigera till 'Mina böcker' och kontrollera att texten visas.
 
 
 Katalog-vy:
 
 Varje bok visar både titel och författare
 
-Klicka på hjärtat för att favoritmarkera en bok → Kontrollera att den visas i "Mina böcker"
+Klicka på hjärtat för att favoritmarkera en bok och Kontrollera att den visas i "Mina böcker"
 
 Klicka på hjärtat igen för att ta bort favoritmarkering → Kontrollera att den inte längre visas
 
@@ -25,20 +25,13 @@ Försök att lägga till en bok utan titel och kontrollera att 'lägg till ny bo
 
 Försök lägga till bok utan författare och kontrollera att 'lägg till ny bok'-knappen är inaktiverads
 
-💡 VG-tester:
-
 Kontrollera att formuläret nollställs efter inmatning
 
 
 Mina böcker (favoriter):
 
-✅ Testa:
 Navigera till "Mina böcker" → Kontrollera att alla favoriter visas
 
-💡 VG-tester:
-Om inga böcker är favoritmarkerade → Kontrollera att ett informationsmeddelande visas
+Testa att inga böcker är markerade som favoriter
 
-Favoritmarkera flera böcker → Kontrollera att alla visas i "Mina böcker"
-
-Försök favoritmarkera samma bok flera gånger → Kontrollera att inga dubbletter visas
 

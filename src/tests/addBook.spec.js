@@ -12,8 +12,10 @@ test.describe("lägg till bok-vy", () => {
 		await page.getByTestId("add-input-author").fill("Maria Andersson")
 		await page.getByRole("button", {name:"Lägg till ny bok"}).click()
 		await page.getByRole("button", {name:"katalog"}).click()
-		const nyBok=page.getByText("Maria andersson")
-		await expect(nyBok).toBeVisible()
+		const nyFörfattare=page.getByText("Maria andersson")
+		await expect(nyFörfattare).toBeVisible()
+		const nyTitel=page.getByText("Bästa vänner")
+		await expect(nyTitel).toBeVisible()
 		
 	});
 	test("Försök att lägga till en bok utan titel och kontrollera att 'lägg till ny bok'-knappen är inaktiverad",async({page})=>{
