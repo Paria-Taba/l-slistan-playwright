@@ -12,7 +12,7 @@ test.describe("lägg till bok-vy", () => {
 		await page.getByTestId("add-input-author").fill("Maria Andersson")
 		await page.getByRole("button", {name:"Lägg till ny bok"}).click()
 		await page.getByRole("button", {name:"katalog"}).click()
-		const nyFörfattare=page.getByText("Maria andersson")
+		const nyFörfattare=page.getByText("Maria Andersson")
 		await expect(nyFörfattare).toBeVisible()
 		const nyTitel=page.getByText("Bästa vänner")
 		await expect(nyTitel).toBeVisible()
@@ -22,7 +22,7 @@ test.describe("lägg till bok-vy", () => {
 		await page.getByRole("button",  {name:"Lägg till bok"}).click()
 		await page.getByTestId("add-input-author").fill("Sara Alavi")
 		const addButton= page.getByRole("button", {name:"lägg till ny bok"})
-		await expect(addButton).toBeDisabled
+		await expect(addButton).toBeDisabled();
 		
 	})
 	
@@ -30,7 +30,7 @@ test.describe("lägg till bok-vy", () => {
 		await page.getByRole("button",  {name:"Lägg till bok"}).click()
 		await page.getByTestId("add-input-title").fill("My best goal")
 		const addButton= page.getByRole("button", {name:"lägg till ny bok"})
-		await expect(addButton).toBeDisabled
+		await expect(addButton).toBeDisabled();
 		
 		
 	})

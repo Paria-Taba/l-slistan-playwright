@@ -11,9 +11,9 @@ test.describe("Mina böcker-vy", () => {
 		await page.getByTestId("star-100 sätt att undvika måndagar").click()
 		await page.getByRole("button", {name:"mina böcker"}).click()
 		const favoriteOne= page.getByText("Hur man tappar bort sin TV-fjärr 10 gånger om dagen")
-		await expect(favoriteOne).toBeVisible;
+		await expect(favoriteOne).toBeVisible();
 		const favoriteTwo= page.getByText("100 sätt att undvika måndagar")
-		await expect(favoriteTwo).toBeVisible;
+		await expect(favoriteTwo).toBeVisible();
 	
 	});
 	test("Testa att inga böcker är markerade som favoriter",async({page})=>{
