@@ -15,7 +15,12 @@ Varje bok visar både titel och författare
 
 Klicka på hjärtat för att favoritmarkera en bok och Kontrollera att den visas i "Mina böcker"
 
+Klicka på hjärtat för att favoritmarkera flera böcker och Kontrollera att de visas i 'Mina böcker'
+
 Klicka på hjärtat igen för att ta bort favoritmarkering → Kontrollera att den inte längre visas
+
+Favoritmarkera → avmarkera → favoritmarkera igen, och kontrollera att boken visas korrekt i 'Mina böcker'
+
 
 
 Lägga till bok:
