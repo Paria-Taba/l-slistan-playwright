@@ -21,18 +21,13 @@ Lägga till bok:
 
 Lägg till bok med titel och författare → Kontrollera att den dyker upp i katalogen
 
-Försök lägga till bok utan titel → Kontrollera att felmeddelande visas
+Försök att lägga till en bok utan titel och kontrollera att 'lägg till ny bok'-knappen är inaktiverad
 
-Försök lägga till bok utan författare → Kontrollera att felmeddelande visas
+Försök lägga till bok utan författare och kontrollera att 'lägg till ny bok'-knappen är inaktiverads
 
 💡 VG-tester:
-Försök lägga in en extremt lång titel (300+ tecken) → Kontrollera att fel visas
-
-Lägg till flera böcker i rad utan omladdning → Kontrollera att alla visas
 
 Kontrollera att formuläret nollställs efter inmatning
-
-
 
 
 Mina böcker (favoriter):
