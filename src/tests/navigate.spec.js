@@ -6,6 +6,7 @@ test.describe("Navigering", () => {
 		await page.goto('https://tap-ht24-testverktyg.github.io/exam-template/');
 	});
 	test("Går från 'Katalog' till 'Lägg till bok' och vidare till 'Mina böcker' visar rätt innehåll",async({page})=>{
+		await page.getByRole("button",{name:"katalog"}).isDisabled
 		await page.getByRole("button", { name: "Lägg till bok" }).click();
 		const input=page.getByTestId("add-input-author")
 		await expect(input).toBeVisible()
